@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-            git branch: 'main', url: 'https://etulab.univ-amu.fr/f22012793/flask-github-jenkins.git'
+            git branch: 'main', url: 'https://github.com/jarodlqt/flask-github-jenkins.git'
             }
         }
         stage('Install Dependencies') {
